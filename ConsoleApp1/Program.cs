@@ -17,7 +17,7 @@ namespace ConsoleApp1
 
         private static readonly Dictionary<Env, string> EnvUrl = new()
         {
-            { Env.Stage, $"https://marais-stage.com/line_shopping/product_full" },
+            { Env.Stage, $"https://marais-stage.com/line_shopping/product_full?force=true" },
             { Env.Prod, $"https://www.storemarais.com/line_shopping/product_full" }
         };
 
